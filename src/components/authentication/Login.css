@@ -1,0 +1,31 @@
+.login__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.login__signupInput {
+  margin: 10px 0;
+}
+.login__modalLogo {
+  width: 35px;
+  object-fit: contain;
+  display: block;
+  margin: 35px auto;
+}
+
+.login__loginContainer {
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 10px;
+  z-index: 5 !important; 
+}
+.login__loginInformations {
+  display: flex;
+  align-items: center;
+}

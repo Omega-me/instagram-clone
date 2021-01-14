@@ -1,0 +1,13 @@
+.imageUpload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imageUpload__inputs {
+  display: flex;
+}
+.imageUpload__upload {
+  display: none;
+  flex: 0;
+}
